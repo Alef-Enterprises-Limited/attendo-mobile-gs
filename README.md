@@ -1,19 +1,13 @@
-# gluestack-ui Starter Kit
+# Attendo Check-In App 
+(Built with Gluestack-UI Starter Kit Repo - https://github.com/gluestack/gluestack-ui-starter-kits.git)
 
-Welcome to the gluestack-ui Starter Kit! This project is designed to help you kickstart your application development with React and React Native. It supports both Next.js and Expo, providing a flexible and modular architecture.
+Welcome to the Attendo Check-In mobile app, built on the gluestack-ui Starter Kit! Imagine all attendees have registered for an event on Attendo. This app enables one to check-in each attendee at the venue as they enter by QR scanning, name searching, and more.
 
 ## Getting Started
 
-### Installation
+### Local Dev Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/gluestack/gluestack-ui-starter-kits.git
-cd gluestack-ui-starter-kits
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 Go to `expo-app`, `next` and `universal` folders and run the following command in each:
 
@@ -23,62 +17,10 @@ yarn
 
 ### Running the Application
 
-#### Next.js
-
-To run the Next.js application, run the following command:
-
-```bash
-cd next && yarn dev
-```
-
 #### Expo
 
 To run the Expo application, run the following command:
 
 ```bash
 cd expo-app && yarn start
-```
-
-#### Universal
-
-For the Expo app in the universal project, run the following command:
-
-```bash
-cd universal && yarn run:expo
-```
-
-For the Next.js app in the universal project, run the following command:
-
-```bash
-cd universal && yarn run:next
-```
-
-## Project Structure
-
-### Next.js
-
-- `next`: Contains the Next.js application along with components and screens.
-
-### Expo
-
-- `expo`: Contains the Expo application along with components and screens.
-
-### Universal
-
-- `app/next`: Contains the Next.js application.
-- `app/expo`: Contains the Expo application.
-- `packages/components`: Shared components used across platforms.
-- `packages/screens`: Shared screens that can be used in both Next.js and Expo projects.
-- `packages/shared`: Shared assets
-
-# Usage
-
-You can copy the project of your choice (Next.js, Expo, or Universal) and start building your application. The starter kit provides a basic structure and shared components to help you get started quickly.
-
-# Ejection
-
-If you have copied the universal project and want to eject the project, you can run the following command:
-
-```bash
-cd universal && yarn eject
 ```
